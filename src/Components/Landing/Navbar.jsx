@@ -1,6 +1,11 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
-import './landing.css'
+import { BsReverseLayoutTextWindowReverse } from "react-icons/bs";
+import { VscLaw } from "react-icons/vsc";
+
+
+
+
 
 
 const Navbar = () => {
@@ -27,6 +32,8 @@ const Navbar = () => {
         
         <nav className="navbar navbar-expand-md navbar-dark">
             <a className="navbar-brand heading-black" href="index.html">
+            {/* // <VscLaw />&nbsp; */}
+
                 Law Craftsman
             </a>
             
@@ -50,8 +57,9 @@ const Navbar = () => {
                         <a className="nav-link page-scroll" href="#blog">Blog</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link page-scroll d-flex flex-row align-items-center text-white" href="#">
-                            <em data-feather="layout" width="18" height="18" className="mr-2"></em>
+                        <a className="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="#">
+                        <BsReverseLayoutTextWindowReverse  size={18} className="mr-2"/>
+
                             Try Generator
                         </a>
                     </li>

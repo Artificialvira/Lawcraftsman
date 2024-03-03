@@ -1,6 +1,5 @@
 //import { useState } from 'react'
 //import './App.css'
-import './Components/Landing/landing.css'
 import Navbar from './Components/Landing/Navbar'
 import Hero from './Components/Landing/Hero'
 import Theme from './Components/Landing/Theme'

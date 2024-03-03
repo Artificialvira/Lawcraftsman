@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './landing.css';
+import { FaGear } from "react-icons/fa6";
 
 
 
@@ -29,7 +29,8 @@ const Theme = () => {
         <main>
             <div className="switcher-wrap">
                 <div className="switcher-trigger" onClick={toggleSwitcher}>
-                    <span className="fa fa-gear"></span>
+                <FaGear className="fa fa-gear"/>
+
                 </div>
                 <div className="color-switcher">
                     <h6>Color Switcher</h6>
