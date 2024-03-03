@@ -4,7 +4,7 @@ import { FaGear } from "react-icons/fa6";
 
 
 const Theme = () => {
-    const [activeColor, setActiveColor] = useState('default');
+    const [activeColor, setActiveColor] = useState('purple');
 
     useEffect(() => {
         // This effect runs after the component mounts and whenever activeColor changes

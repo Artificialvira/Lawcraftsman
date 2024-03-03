@@ -2,6 +2,7 @@ import React from 'react'
 import { useState,useEffect } from 'react'
 import { BsReverseLayoutTextWindowReverse } from "react-icons/bs";
 import { VscLaw } from "react-icons/vsc";
+import {Link} from 'react-router-dom'
 
 
 
@@ -57,11 +58,11 @@ const Navbar = () => {
                         <a className="nav-link page-scroll" href="#blog">Blog</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="#">
+                        <Link to='/login' className="nav-link page-scroll d-flex flex-row align-items-center text-primary">
                         <BsReverseLayoutTextWindowReverse  size={18} className="mr-2"/>
 
                             Try Generator
-                        </a>
+                            </Link>
                     </li>
                 </ul>
             </div>
