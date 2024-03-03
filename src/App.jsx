@@ -9,6 +9,7 @@ import {Routes,Route} from 'react-router-dom'
 import UserRL from './Components/UserRL'
 import Login from './Components/Login/Login'
 import Features from './Components/Landing/Features'
+import NotFound from './Components/NotFound'
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Route exact path='/' element={<UserRL/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/features' element={<Features/>}/>
+      <Route path='*' element={<NotFound/>}/>
     </Routes> 
      
     
