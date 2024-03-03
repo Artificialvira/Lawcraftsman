@@ -2,15 +2,17 @@ import React from 'react'
 import Navbar from './Landing/Navbar'
 import Hero from './Landing/Hero'
 import Theme from './Landing/Theme'
+import Features from './Landing/Features'
 
 
 const UserRL = () => {
   return (
-    <div>
-        <section className='smart-scroll'>
-      <section className='container-fluid'>
+    <div className='h-screen' >
+        <section >
+      <section >
         <Navbar />  
         <Hero />
+        <Features/>
       </section>
       <Theme />
       </section>
